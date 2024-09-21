@@ -1,0 +1,21 @@
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(9, 178, 178);
+  color: rgb(6, 70, 70);
+}
+
+h1 {
+  text-align: center;
+  color: rgba(37, 19, 17, 0.742);
+}

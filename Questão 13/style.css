@@ -1,0 +1,32 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center; /* Centraliza a lista */
+}
+
+nav ul li {
+  display: inline; /* Exibe os itens em linha */
+  margin: 0 15px; /* Espaço entre os itens */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Cor do texto */
+  font-weight: bold;
+}
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}

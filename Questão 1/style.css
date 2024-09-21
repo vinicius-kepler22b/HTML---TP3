@@ -1,0 +1,15 @@
+h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.item img {
+  width: 500px;
+  height: 300px;
+  padding: 10px;
+}

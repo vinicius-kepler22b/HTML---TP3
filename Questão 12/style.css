@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  width: 992px;
+  margin: 0 auto;
+}
+
+h1 {
+  display: none; /* Oculta o título H1 */
+}

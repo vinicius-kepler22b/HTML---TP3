@@ -1,0 +1,63 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center; /* Centraliza a lista */
+}
+
+nav ul li {
+  display: inline; /* Exibe os itens em linha */
+  margin: 0 15px; /* Espaço entre os itens */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Cor do texto */
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+#container {
+  display: flex; /* Define o layout flexível para o contêiner principal */
+  flex-direction: column; /* Mantém o cabeçalho e o rodapé em coluna */
+}
+
+main {
+  display: flex;
+  flex-direction: column; /* Alinha os elementos na coluna */
+}
+
+.container {
+  display: flex; /* Define um container flexível */
+  justify-content: space-between; /* Espaça os itens */
+  gap: 20px; /* Espaço entre as seções */
+  margin-top: 20px; /* Adiciona espaço entre o hero e as seções */
+}
+
+.escolha-cafe,
+.encontrar-lojas {
+  flex: 1; /* Permite que ambas as seções cresçam igualmente */
+  width: 300px; /* Define uma largura mínima para as seções */
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 0;
+  background-color: #f8f8f8;
+}

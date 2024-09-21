@@ -1,0 +1,20 @@
+thead {
+  background-color: rgba(10, 10, 10, 0.742);
+  color: white;
+  text-decoration: underline white;
+  font-size: 20px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr,
+td {
+  font-size: 25px;
+}

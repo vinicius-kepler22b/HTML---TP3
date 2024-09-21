@@ -1,0 +1,13 @@
+table {
+  font-size: 40px;
+  border-spacing: 2px;
+}
+
+th {
+  color: rgb(176, 176, 5);
+}
+
+tr,
+td {
+  background-color: #324759;
+}
